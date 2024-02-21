@@ -31,7 +31,7 @@ To facilitate .NET Core installation and ensure it's correctly configured on you
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
 sudo apt install wget -y &&
 sudo apt-get install --reinstall ca-certificates -y &&
-wget https://raw.githubusercontent.com/brettjrea/Deno_Install_Dotnet/main/install-dotnet.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Debian_Install_Dotnet/main/install-dotnet.sh &&
 chmod +x install-dotnet.sh &&
 ./install-dotnet.sh &&
 sudo apt autoremove -y &&
